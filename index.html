@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Energizare - Restaure sua Energia</title>
+    <meta name="description" content="Dissipe a ansiedade e viva com mais bom humor, energia, disposição e alegria." />
+    
+    <!-- Google Fonts: Playfair Display (Headers) & Nunito (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#fcfaff',
+                100: '#f3eefc',
+                200: '#e4d8f7',
+                300: '#cfb6ef',
+                400: '#b68ee3',
+                500: '#9b66d4',
+                600: '#8546c0',
+                700: '#6e4ca2', // Main Brand Color
+                800: '#61348e',
+                900: '#502b73',
+              },
+              gold: {
+                100: '#fcf7e3',
+                200: '#f7ecb9',
+                300: '#f3e5ab', // Pale Gold
+                400: '#e8cd73',
+                500: '#d6b048',
+              },
+              peach: {
+                50: '#fff7f2',
+                100: '#fff0e5', // Light Peach
+                200: '#ffe0cc',
+              },
+              offwhite: '#FAF9F6',
+            },
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            backgroundImage: {
+              'floral-pattern': "radial-gradient(circle at 50% 50%, rgba(110, 76, 162, 0.03) 0%, transparent 50%)",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #FAF9F6;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cfb6ef;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6e4ca2;
+      }
+      
+      /* Smooth Scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Fade In Animation */
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .delay-100 { animation-delay: 0.1s; }
+      .delay-200 { animation-delay: 0.2s; }
+      .delay-300 { animation-delay: 0.3s; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-offwhite text-gray-800 antialiased overflow-x-hidden">
+    <div id="root"></div>
+  </body>
+</html>
