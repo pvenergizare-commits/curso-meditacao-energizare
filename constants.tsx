@@ -3,7 +3,7 @@ import { Moon, Sun, BatteryCharging, ShieldCheck, Heart, Feather, Clock, PlayCir
 import { FeatureItem, TimelineItem, FAQItem } from './types';
 
 export const COPY = {
-  alert: "Últimas vagas com 70% de desconto – apenas para os 100 primeiros inscritos!",
+  alert: "Últimas vagas com 80% de desconto – apenas para os 100 primeiros inscritos!",
   hero: {
     headline: "Dissipe a ansiedade e viva com mais bom humor, energia e disposição.",
     subheadline: "Administre a ansiedade e tenha ótimas noites de sono. Comece o dia leve e vitalizado.",
@@ -101,7 +101,7 @@ export const COPY = {
       "Garantia incondicional de 7 dias",
       "Acesso imediato pela plataforma Eduzz"
     ],
-    finalCall: "Últimas vagas com 70% de desconto"
+    finalCall: "Últimas vagas com 80% de desconto"
   },
   faq: [
     {
